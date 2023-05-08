@@ -11,6 +11,6 @@ app.get('/',(req,res)=>{
 
 
 app.listen(port, ()=>{
-    console.log(`serwer działa`, port)
+    console.log(`http://0.0.0.0:`, port)
 
 });
