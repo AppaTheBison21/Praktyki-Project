@@ -1,0 +1,44 @@
+body{
+    background-color: #370000;
+}
+h1{
+    font-family: 'Dirty Harold';
+    color: #FFFFFF;
+    font-size: 150px;
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+label{
+    font-family: 'Dirty Harold';
+    color: #FFFFFF;
+    font-size: 50px;
+}
+input{
+    line-height: 53px;
+    width: 500px;
+    float: right;
+    font-family: 'Dirty Harold';
+    color: #370000;
+    font-size: 50px;
+}
+#ADD{
+    background-color: #FFFFFF;
+    font-family: "Dirty Harold";
+    color: #370000;
+    height: 100px;
+    width: 300px;
+    font-size: 50px;
+    float: none;
+    margin-left: 35.5%;
+}
+#xd{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}

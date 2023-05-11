@@ -1,8 +1,115 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Hello</title>
+    <style>
+        h1{
+            position: absolute;
+            width: 2645px;
+            height: 371px;
+            left: -250px;
+            top: 129px;
 
+            font-family: 'Dirty Harold';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 150px;
+            line-height: 173px;
+            text-align: center;
+
+            color: #FFFFFF;
+
+
+        }
+        body{
+            position: relative;
+            width: 1440px;
+            height: 1024px;
+
+            background: #370000;
+        }
+        #lol{
+
+            position: absolute;
+            width: 454px;
+            height: 68px;
+            left: 870px;
+            top: 550px;
+
+            font-family: 'Dirty Harold';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 58px;
+            text-align: center;
+
+            color: black;
+        }
+        button{
+
+            position: absolute;
+            width: 454px;
+            height: 68px;
+            left: 870px;
+            top: 650px;
+
+            font-family: 'Dirty Harold';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 58px;
+            text-align: center;
+
+            color: black;
+        }
+        #first{
+            position: absolute;
+            width: 454px;
+            height: 68px;
+            left: 870px;
+            top: 750px;
+
+            font-family: 'Dirty Harold';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 58px;
+            text-align: center;
+
+            color: black;
+
+        }
+        #delete{
+            position: absolute;
+            width: 454px;
+            height: 68px;
+            left: 870px;
+            top: 850px;
+
+            font-family: 'Dirty Harold';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 58px;
+            text-align: center;
+
+            color: black;
+        }
+    </style>
 </head>
     <body>
-        <h1>Hello World</h1>
+        <h1>WELCOME TO  MY WORLD </h1>
+        <form action="byid" method="GET">
+            <input type="text" id="lol" value="find by brand">
+        </form>
+        <form action="all" method="GET">
+        <button>FIND ALL</button>
+        </form>
+        <form action="newPage" method="GET">
+            <button id="first">ADD</button>
+        </form>
+        <form action="deletebyid" method="GET">
+                <input type="number" id="delete" value="Delete by id">
+        </form>
     </body>
+</html>

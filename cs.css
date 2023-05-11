@@ -1,0 +1,62 @@
+h1{
+    position: absolute;
+    width: 2645px;
+    height: 371px;
+    left: -250px;
+    top: 129px;
+
+    font-family: 'Dirty Harold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 173px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+body{
+    position: relative;
+    width: auto;
+    height: auto;
+
+    background: #370000;
+}
+
+
+button{
+
+    position: absolute;
+    width: 454px;
+    height: 68px;
+    left: 870px;
+    top: 650px;
+
+    font-family: 'Dirty Harold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+
+    color: black;
+}
+
+form, input{
+    position: absolute;
+    width: 454px;
+    height: 68px;
+    left: 870px;
+    top: 750px;
+
+    font-family: 'Dirty Harold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+
+    color: white;
+
+}
