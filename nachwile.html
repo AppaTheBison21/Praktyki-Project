@@ -2,15 +2,15 @@
 <html>
 <head >
     <title>Hello</title>
-    <link rel="stylesheet" href="janapisalem.css">
+    <link rel="stylesheet" href="serverFile/janapisalem.css">
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
 </head>
 <body>
-<button id="xd"   onclick="location.href='http://localhost:3000/'"><img src="fajne.png" width="40" height="40"></iconify-icon>
+<button id="xd"   onclick="location.href='http://localhost:3000/'"><img src="serverFile/fajne.png" width="40" height="40"></iconify-icon>
 </button>
 <h1>ADD NEW ITEM </h1>
-<form action="addNewIteam" method="GET">
+<form action="addNewIteam" method="POST">
     <label>Title: </label><input type="text" id="title" name="title"><br>
     <label>Description: </label><input type="text"  id="description" name="description"><br>
     <label>Price: </label><input type="number" min="0" id="price" name="price"><br>

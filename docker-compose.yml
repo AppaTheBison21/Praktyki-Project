@@ -9,6 +9,7 @@ services:
     working_dir: /app
     environment:
       - CONN_STR=mongodb://root:Start1234@mongodb:27017
+      - COLL_NAME=products
     volumes:
       - ./:/app
     ports:
@@ -26,8 +27,8 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=Start1234
       - MONGO_INITDB_DATABASE=shop
     volumes:
-      - ./json:/docker-entrypoint-initdb.d
-      - mongoData:/data/db
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+
 
 volumes:
   mongoData:
